@@ -46,3 +46,13 @@ setBackground();
 
 ![image](https://github.com/stefanoturcarelli/javascript-fetch-api/assets/67341828/309974bf-f1bf-45dc-8733-05dd627f35bf)
 
+## Example 2 
+
+This example uses the JavaScript Fetch API to retrieve user data from the Random User Generator API (https://randomuser.me/api/) and displays users when the page loads. 
+
+### Screenshots
+
+![image](https://github.com/stefanoturcarelli/javascript-fetch-api/assets/67341828/2743a989-9795-4d14-82ca-d205714bf6fc)
+
+
+
