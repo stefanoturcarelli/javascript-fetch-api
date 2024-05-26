@@ -1,5 +1,7 @@
 # JavaScript Fetch API
 
+Table of contents
+
 ## Example 1
 
 The example below fetches an image and sets it as the body background.
