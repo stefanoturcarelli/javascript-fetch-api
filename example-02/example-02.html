@@ -20,34 +20,30 @@
 		rel="stylesheet">
 
 	<!-- Update these -->
-	<title>JavaScript Fetch API</title>
-	<meta name="description" content="JavaScript Fetch API">
-	<meta property="og:title" content="JavaScript Fetch API">
+	<title>Fetch API</title>
+	<meta name="description" content="Fetch API">
+	<meta property="og:title" content="Stefano Turcarelli | Fetch API">
 	<meta property="og:url" content="">
 	<meta property="og:type" content="website">
 
 	<!-- CSS and JS -->
-	<script src="/assets/index.js" async></script>
+	<script src="/example-02/example-02.js" async></script>
 	<link rel="stylesheet" type="text/css" href="https://stefanoturcarelli.github.io/cdn/reset.css">
 	<link rel="stylesheet" href="/assets/index.css">
+	<link rel="stylesheet" href="/example-02/example-02.css">
 </head>
 
 <body>
-	<header></header>
-
-	<main>
-		<div class="container">
-			<h1>JavaScript Fetch API</h1>
-			<p>Examples of the JavaScript Fetch API.</p>
-			<ul>
-				<li><a href="/example-01/example-01.html">Example 01</a></li>
-				<li><a href="/example-02/example-02.html">Example 02</a></li>
-				<li><a href="/example-03/example-03.html">Example 03</a></li>
-			</ul>
-		</div>
-	</main>
-
-	<footer></footer>
+	<div class="container">
+		<h1>JavaScript Fetch API - Example 02</h1>
+		<p>This example uses the JavaScript Fetch API to retrieve user data from
+			the Random User Generator API (https://randomuser.me/api/) and displays
+			users when the page loads. </p>
+		<br>
+		<div class="spinner">Getting users...</div>
+		<div class="users-container"></div>
+		<br>
+	</div>
 </body>
 
 <noscript>
