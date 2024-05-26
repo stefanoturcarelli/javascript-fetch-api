@@ -2,6 +2,10 @@
 
 Table of contents
 
+- [Example 1](https://github.com/stefanoturcarelli/javascript-fetch-api?tab=readme-ov-file#example-1)
+- [Example 2](https://github.com/stefanoturcarelli/javascript-fetch-api?tab=readme-ov-file#example-2)
+- [Example 3](https://github.com/stefanoturcarelli/javascript-fetch-api?tab=readme-ov-file#example-3)
+
 ## Example 1
 
 The example below fetches an image and sets it as the body background.
