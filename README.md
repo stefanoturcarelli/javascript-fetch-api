@@ -12,6 +12,34 @@ The promise resolves to the `Response` object representing the response to your 
 
 A `fetch()` promise only rejects when the request fails, for example, because of a badly-formed request URL or a network error. A `fetch()` promise does not reject if the server responds with HTTP status codes that indicate errors (`404`, `504`, etc.). Instead, a `then()` handler must check the `Response.ok` and/or `Response.status` properties.
 
+### JavaScript code
+
+```javascript
+"use strict";
+
+const body = document.querySelector("body");
+
+function setBackground() {
+  const URL =
+    "https://images.unsplash.com/photo-1682687219640-b3f11f4b7234?" +
+    "q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3f" +
+    "DF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+
+  fetch(URL)
+    .then((response) => {
+      console.log(`Status: ${response.status}`);
+      body.style.background = `url(${response.url}) no-repeat center center 
+      / cover fixed`;
+      console.log("Asynchronous task completed!");
+    })
+    .catch((error) => {
+      console.log(`Error: ${error.message}`);
+    });
+}
+
+setBackground();
+```
+
 ### Screenshots
 
 ![image](https://github.com/stefanoturcarelli/javascript-fetch-api/assets/67341828/c10f515e-4892-48ef-919a-e30a516a686a)
