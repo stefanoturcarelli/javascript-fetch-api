@@ -129,5 +129,12 @@ getUsers();
 
 ![image](https://github.com/stefanoturcarelli/javascript-fetch-api/assets/67341828/2743a989-9795-4d14-82ca-d205714bf6fc)
 
+## Example 3
+
+This example fetches a movie by its name and displays the description and the poster.
+
+### Screenshots
+
+![image](https://github.com/stefanoturcarelli/javascript-fetch-api/assets/67341828/08422e3d-a61d-437f-b743-681e410e4124)
 
 
